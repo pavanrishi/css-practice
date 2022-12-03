@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+        p::first-letter {
+            color: red;
+            font-size: 70px;
+        }
+        
+        p::first-line {
+            color: rgb(69, 189, 230);
+        }
+        
+        .loader {
+            border: 2px solid white;
+            border-radius: 50%;
+            border-top: 3px solid blue;
+            width: 120px;
+            height: 120px;
+            animation: spin 2s linear infinite;
+        }
+        
+        @keyframes spin {
+            0% {
+                transform: rotate(0deg);
+            }
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="con">
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores consequatur numquam adipisci. Ad pariatur omnis, mollitia a praesentium atque saepe amet maiores cumque quaerat? In magni rerum eius optio aliquam porro est voluptatem accusamus praesentium
+            amet, tenetur ipsa. Repellendus reprehenderit dolore laudantium explicabo quibusdam nemo consectetur expedita cum quia debitis doloribus similique neque sed in iure, omnis labore iste. Harum quam asperiores corrupti, commodi similique facere
+            placeat aut itaque ratione voluptates doloremque et, in, ut quaerat. Ratione, laborum reiciendis ut voluptatem cumque ullam eligendi natus. Porro illo tempora, laboriosam itaque temporibus dolorum enim incidunt voluptatum laudantium suscipit
+            hic odio praesentium.
+        </p>
+    </div>
+    <div class="loader">
+    </div>
+</body>
+
+</html>
